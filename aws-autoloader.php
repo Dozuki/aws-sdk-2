@@ -30,6 +30,6 @@ $classLoader->registerNamespaces(array(
     'Monolog'  => AWS_FILE_PREFIX
 ));
 
-$classLoader->register();
+$classLoader->register(true);
 
 return $classLoader;
